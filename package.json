@@ -1,0 +1,23 @@
+{
+  "name": "frontendmentor-notifications-page",
+  "version": "1.0.0",
+  "description": "frontendmentor | Notifications page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fairstyle/frontendmentor-Notifications-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fairstyle/frontendmentor-Notifications-page/issues"
+  },
+  "homepage": "https://github.com/fairstyle/frontendmentor-Notifications-page#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.0"
+  }
+}
