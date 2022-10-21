@@ -6,9 +6,107 @@
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Frontendmentor Challenge - Notifications page</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./challenge/assets/images/favicon-32x32.png">
     <link href="./dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,500;0,800;1,500;1,800&display=swap" rel="stylesheet">
 </head>
 <body>
+    <main class="h-screen bg-verylightgrayblue grid place-content-center">
+        <div class="bg-themewhite shadow-2xl rounded-xl p-8 grid grid-flow-row-dense gap-3 m-4 md:m-0">
+            <div class="flex justify-between py-4">
+                <div class="text-3xl text-black font-bold flex">Notifications
+                <div class="text-2xl ml-4 px-4 bg-verydarkblue text-white font-black rounded-xl grid place-content-center">3</div>
+                </div>
+                <div class="text-moredarkgrayblue">Mark all as read</div>
+            </div>
+            <!-- Mark Webber Notification -->
+            <div class="w-full bg-lighgrayblueone md:max-w-[650px] py-4 px-4 rounded-xl flex items-center">
+                <img class="mb-auto h-10 w-10" src="./challenge/assets/images/avatar-mark-webber.webp" alt="Mark Webber Avatar">
+                <div class="pl-4">
+                    <div class="text-moredarkgrayblue gap-2">
+                        <b class="text-black">Mark Webber</b> reacted to your recent post <b class="text-darkgrayblue pr-1">My first tournament today!</b>
+                        <p class="inline-block h-2 w-2 bg-themered rounded-full"></p>
+                    </div>
+                    <div class="text-grayblue">1m ago</div>
+                </div>
+            </div>
 
+            <!-- Angela Gray Notification -->
+            <div class="w-full bg-lighgrayblueone md:max-w-[650px] py-4 px-4 rounded-xl flex items-center">
+                <img class="mb-auto h-10 w-10" src="./challenge/assets/images/avatar-angela-gray.webp" alt="Angela Gray Avatar">
+                <div class="pl-4">
+                    <div class="text-moredarkgrayblue gap-2">
+                        <b class="text-black">Angela Gray</b> followed you <b class="pr-1"></b>
+                        <p class="inline-block h-2 w-2 bg-themered rounded-full"></p>
+                    </div>
+                    <div class="text-grayblue">5m ago</div>
+                </div>
+            </div>
+
+            <!-- Jacob Thompsons Notification -->
+            <div class="w-full bg-lighgrayblueone md:max-w-[650px] py-4 px-4 rounded-xl flex items-center">
+                <img class="mb-auto h-10 w-10" src="./challenge/assets/images/avatar-jacob-thompson.webp" alt="Jacob Thompson Avatar">
+                <div class="pl-4">
+                    <div class="text-moredarkgrayblue gap-2">
+                        <b class="text-black">Jacob Thompson</b> has joined your group <b class="pr-1 text-verydarkblue">Chess Club</b>
+                        <p class="inline-block h-2 w-2 bg-themered rounded-full"></p>
+                    </div>
+                    <div class="text-grayblue">1 day ago</div>
+                </div>
+            </div>
+
+            <!-- Rizky Hasanuddin Notification -->
+            <div class="w-full md:max-w-[650px] py-4 px-4 rounded-xl flex items-center">
+                <img class="mb-auto h-10 w-10" src="./challenge/assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin Avatar">
+                <div class="pl-4">
+                    <div class="text-moredarkgrayblue gap-2">
+                        <b class="text-black">Rizky Hasanuddin</b> sent you a private message <b class="pr-1"></b>
+                    </div>
+                    <div class="text-grayblue">5 days ago</div>
+                    <div class="mt-4 rounded-lg border-2 border-gray w-full p-4  text-moredarkgrayblue">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</div>
+                </div>
+            </div>
+
+            <!-- Kimberly Smith Notification -->
+            <div class="w-full md:max-w-[650px] py-4 px-4 rounded-xl flex items-center">
+                <img class="mb-auto h-10 w-10" src="./challenge/assets/images/avatar-kimberly-smith.webp" alt="Kimberly Smith Avatar">
+                <div class="pl-4">
+                    <div class="text-moredarkgrayblue gap-2">
+                        <b class="text-black">Kimberly Smith</b> commented on your picture <b class="pr-1"></b>
+                    </div>
+                    <div class="text-grayblue flex items-center">1 week ago
+                    </div>
+                </div>
+                <div class="ml-auto">
+                    <img class="h-12 w-12" src="./challenge/assets/images/image-chess.webp" alt="Kimberly Smith playing chess">
+                </div>
+            </div>
+
+            <!-- Nathan Peterson Notification -->
+            <div class="w-full md:max-w-[650px] py-4 px-4 rounded-xl flex items-center">
+                <img class="mb-auto h-10 w-10" src="./challenge/assets/images/avatar-nathan-peterson.webp" alt="Nathan Peterson Avatar">
+                <div class="pl-4">
+                    <div class="text-moredarkgrayblue gap-2">
+                        <b class="text-black">Nathan Peterson</b> reacted to your recent post <b class="text-darkgrayblue pr-1">5 end-game strategies to increase your win rate</b>
+                    </div>
+                    <div class="text-grayblue">2 weeks ago</div>
+                </div>
+            </div>
+
+            <!-- Anna kim Notification -->
+            <div class="w-full md:max-w-[650px] py-4 px-4 rounded-xl flex items-center">
+                <img class="mb-auto h-10 w-10" src="./challenge/assets/images/avatar-anna-kim.webp" alt="Anna kim Avatar">
+                <div class="pl-4">
+                    <div class="text-moredarkgrayblue gap-2">
+                        <b class="text-black">Anna Kim</b> left the group <b class="pr-1 text-verydarkblue">Chess Club</b>
+                    </div>
+                    <div class="text-grayblue">2 weeks ago</div>
+                </div>
+            </div>
+
+        </div>
+    </main>
 </body>
 </html>

@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+
+    html{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    :root {
+        --color-themered: 1deg 90% 64%;
+        --color-themeblue: 219deg 85% 26%;
+        --color-themewhite: 0deg 0% 100%;
+        --color-verylightgrayblue: 210deg 60% 98%;
+        --color-lighgrayblueone: 211deg 68% 94%;
+        --color-lighgraybluetwo: 205deg 33% 90%;
+        --color-grayblue: 219deg 14% 63%;
+        --color-moredarkgrayblue: 219deg 14% 50%;
+        --color-darkgrayblue: 219deg 12% 42%;
+        --color-verydarkblue: 224deg 59% 22%;
+    }
+}
+
