@@ -578,8 +578,8 @@ html{
   margin: 1rem;
 }
 
-.ml-4 {
-  margin-left: 1rem;
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
 .mb-auto {
@@ -604,10 +604,6 @@ html{
 
 .grid {
   display: grid;
-}
-
-.h-screen {
-  height: 100vh;
 }
 
 .h-10 {
@@ -636,6 +632,10 @@ html{
 
 .w-12 {
   width: 3rem;
+}
+
+.min-w-\[300px\] {
+  min-width: 300px;
 }
 
 .grid-flow-row-dense {
@@ -729,14 +729,14 @@ html{
   padding-right: 0.25rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
@@ -788,8 +788,31 @@ html{
     margin: 0px;
   }
 
+  .md\:ml-4 {
+    margin-left: 1rem;
+  }
+
+  .md\:h-screen {
+    height: 100vh;
+  }
+
   .md\:max-w-\[650px\] {
     max-width: 650px;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
