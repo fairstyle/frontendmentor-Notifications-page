@@ -10,8 +10,8 @@ this is my solution in this challenge from frontendmentor.io
 - [Live preview](https://fairstyle.github.io/frontendmentor-Notifications-page/)
 
 # Technologies
-- x
-- x
+- Html
+- Tailwindcss
 
 ## Done desktop ✅
 ![](done/done-desktop.png)
